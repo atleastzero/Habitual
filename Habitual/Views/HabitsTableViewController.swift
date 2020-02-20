@@ -9,14 +9,30 @@
 import UIKit
 
 class HabitsTableViewController: UITableViewController {
+    
+    var names: [String] = ["Alan", "Braus", "Adriana", "Mitchell", "Dani", "Jess", "Dan", "Meredith", "Dan", "Milad"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell: UITableViewCell
+        if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
+            cell = dequeueCell
+        } else {
+            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
+        }
+        cell.textLabel?.text = "Hello, world!"
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 

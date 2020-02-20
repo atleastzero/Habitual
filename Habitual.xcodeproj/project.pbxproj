@@ -24,8 +24,8 @@
 		BC95C34423FF1914008BADDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC95C34723FF1914008BADDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC95C34923FF1914008BADDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC95C34F23FF19C8008BADDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Views/MainViewController.swift; sourceTree = "<group>"; };
-		BC95C35023FF19C8008BADDD /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Views/MainViewController.xib; sourceTree = "<group>"; };
+		BC95C34F23FF19C8008BADDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BC95C35023FF19C8008BADDD /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,9 @@
 		BC95C33A23FF1913008BADDD /* Habitual */ = {
 			isa = PBXGroup;
 			children = (
-				BC95C35323FF19D0008BADDD /* New Group */,
+				BC95C35323FF19D0008BADDD /* Views */,
 				BC95C33B23FF1913008BADDD /* AppDelegate.swift */,
 				BC95C33D23FF1913008BADDD /* SceneDelegate.swift */,
-				BC95C34F23FF19C8008BADDD /* MainViewController.swift */,
-				BC95C35023FF19C8008BADDD /* MainViewController.xib */,
 				BC95C33F23FF1913008BADDD /* ViewController.swift */,
 				BC95C34423FF1914008BADDD /* Assets.xcassets */,
 				BC95C34623FF1914008BADDD /* LaunchScreen.storyboard */,
@@ -71,11 +69,13 @@
 			path = Habitual;
 			sourceTree = "<group>";
 		};
-		BC95C35323FF19D0008BADDD /* New Group */ = {
+		BC95C35323FF19D0008BADDD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC95C34F23FF19C8008BADDD /* MainViewController.swift */,
+				BC95C35023FF19C8008BADDD /* MainViewController.xib */,
 			);
-			path = "New Group";
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

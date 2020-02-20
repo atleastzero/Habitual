@@ -16,10 +16,11 @@ class HabitsTableViewController: UITableViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setupNavBar()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return names.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -29,7 +30,7 @@ class HabitsTableViewController: UITableViewController {
         } else {
             cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         }
-        cell.textLabel?.text = "Hello, world!"
+        cell.textLabel?.text = names[indexPath.row]
         return cell
     }
     
@@ -42,5 +43,18 @@ class HabitsTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+}
 
+extension HabitsTableViewController {
+    func setupNavBar() {
+        title = "Habitual"
+        let addButton = UIBarButtonItem( barButtonSystemItem: .add, target: self, action: #selector(pressAddHabit(_:)))
+        navigationItem.rightBarButtonItem = addButton
+    }
+    
+    @objc func pressAddHabit(_ sender: UIBarButtonItem) {
+        names.insert("Hello World", at: 0)
+        let topIndexPath = IndexPath(row: 0, section: 0)
+        tableView.insertRows(at: [topIndexPath], with: .automatic)
+    }
 }

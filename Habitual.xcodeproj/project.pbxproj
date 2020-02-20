@@ -14,6 +14,7 @@
 		BC95C35123FF19C8008BADDD /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95C34F23FF19C8008BADDD /* HabitsTableViewController.swift */; };
 		BC95C35223FF19C8008BADDD /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC95C35023FF19C8008BADDD /* HabitsTableViewController.xib */; };
 		BC95C35523FF1B32008BADDD /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95C35423FF1B32008BADDD /* UIViewControllerExtensions.swift */; };
+		BC95C35723FF2999008BADDD /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95C35623FF2999008BADDD /* Habit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BC95C34F23FF19C8008BADDD /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
 		BC95C35023FF19C8008BADDD /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
 		BC95C35423FF1B32008BADDD /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		BC95C35623FF2999008BADDD /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				BC95C34F23FF19C8008BADDD /* HabitsTableViewController.swift */,
+				BC95C35623FF2999008BADDD /* Habit.swift */,
 				BC95C35023FF19C8008BADDD /* HabitsTableViewController.xib */,
 			);
 			path = Views;
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC95C35523FF1B32008BADDD /* UIViewControllerExtensions.swift in Sources */,
+				BC95C35723FF2999008BADDD /* Habit.swift in Sources */,
 				BC95C33C23FF1913008BADDD /* AppDelegate.swift in Sources */,
 				BC95C33E23FF1913008BADDD /* SceneDelegate.swift in Sources */,
 				BC95C35123FF19C8008BADDD /* HabitsTableViewController.swift in Sources */,

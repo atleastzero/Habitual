@@ -11,10 +11,10 @@ import UIKit
 class HabitsTableViewController: UITableViewController {
     
     var habits: [Habit] = [
-        Habit(title: "Go to bed before 10pm"),
-        Habit(title: "Drink half my weight in oz of water"),
-        Habit(title: "Commit Today"),
-        Habit(title: "Stand up every Hour")
+        Habit(title: "Go to bed before 10pm", image: Habit.Images.book),
+        Habit(title: "Drink half my weight in oz of water", image: Habit.Images.book),
+        Habit(title: "Commit Today", image: Habit.Images.book),
+        Habit(title: "Stand up every Hour", image: Habit.Images.book)
     ]
 
     override func viewDidLoad() {
@@ -22,6 +22,10 @@ class HabitsTableViewController: UITableViewController {
 
         // Do any additional setup after loading the view.
         setupNavBar()
+        tableView.register(
+                    HabitTableViewCell.nib,
+                    forCellReuseIdentifier: HabitTableViewCell.identifier
+        )
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,14 +33,15 @@ class HabitsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: UITableViewCell
-        if let dequeueCell = tableView.dequeueReusableCell(withIdentifier: "cell") {
-            cell = dequeueCell
-        } else {
-            cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        }
-        cell.textLabel?.text = habits[indexPath.row].title
-        return cell
+            let cell = tableView.dequeueReusableCell(
+                withIdentifier: HabitTableViewCell.identifier,
+                for: indexPath
+            ) as! HabitTableViewCell
+
+            let habit = habits[indexPath.row]
+            cell.configure(habit)
+        
+            return cell
     }
     
     /*
@@ -58,7 +63,7 @@ extension HabitsTableViewController {
     }
     
     @objc func pressAddHabit(_ sender: UIBarButtonItem) {
-        habits.insert(Habit(title: "Hello World"), at: 0)
+        habits.insert(Habit(title: "Hello World", image: Habit.Images.book), at: 0)
         let topIndexPath = IndexPath(row: 0, section: 0)
         tableView.insertRows(at: [topIndexPath], with: .automatic)
     }

@@ -20,5 +20,251 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habitual/Views/HabitsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - 30a5fdacf2e15cc8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - fad1ee6d5643e363"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(style: __C.UITableViewStyle) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - 36a49d4e8dd5af40"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - 445cf29b6d3ccc99"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - b03b0f625da0364f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Habitual.HabitsTableViewController&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - 7b81df60fa62895c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Habitual.HabitsTableViewController&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "88CFE66E-B4EC-4709-A181-BED43BB70F26 - b7dae715df23a0fa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.__deallocating_deinit"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habitual/Views/HabitsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "habits"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - dfafbd059af929c3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.habits.getter : Swift.Array&lt;Habitual.Habit&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - 16226c292a16753f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.habits.setter : Swift.Array&lt;Habitual.Habit&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - 22bb5ce98fe30ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.habits.modify : Swift.Array&lt;Habitual.Habit&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - c835aa4357755b01"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.habits.modify : Swift.Array&lt;Habitual.Habit&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - fad1ee6d5643e363"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(style: __C.UITableViewStyle) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - 445cf29b6d3ccc99"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Habitual.HabitsTableViewController"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "BD27E4BA-23A3-4D7F-8B40-1CEB04B32DE9 - 7b81df60fa62895c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitual.HabitsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Habitual.HabitsTableViewController&gt;"
+                  moduleName = "Habitual"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/meganobryan/Development/MakeSchool/Term3/MOB1.2/Habitual/Habitual/Habitual/Views/HabitsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

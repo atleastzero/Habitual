@@ -34,7 +34,7 @@ class HabitTableViewCell: UITableViewCell {
     }
     
     func configure(_ habit: Habit) {
-        self.imageViewIcon.image = habit.image
+        self.imageViewIcon.image = habit.selectedImage.image
       self.labelHabitTitle.text = habit.title
       self.labelStreaks.text = "streak: \(habit.currentStreak)"
 

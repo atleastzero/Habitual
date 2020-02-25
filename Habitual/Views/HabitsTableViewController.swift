@@ -10,6 +10,8 @@ import UIKit
 
 class HabitsTableViewController: UITableViewController {
     
+    private var persistence = PersistenceLayer()
+    
     var habits: [Habit] = [
         Habit(title: "Go to bed before 10pm", image: Habit.Images.book),
         Habit(title: "Drink half my weight in oz of water", image: Habit.Images.book),
@@ -17,6 +19,13 @@ class HabitsTableViewController: UITableViewController {
         Habit(title: "Stand up every Hour", image: Habit.Images.book)
     ]
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        persistence.setNeedsToReloadHabits()
+        tableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,7 +38,7 @@ class HabitsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return habits.count
+        return persistence.habits.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -38,7 +47,7 @@ class HabitsTableViewController: UITableViewController {
                 for: indexPath
             ) as! HabitTableViewCell
 
-            let habit = habits[indexPath.row]
+            let habit = persistence.habits[indexPath.row]
             cell.configure(habit)
         
             return cell
@@ -63,8 +72,13 @@ extension HabitsTableViewController {
     }
     
     @objc func pressAddHabit(_ sender: UIBarButtonItem) {
-        habits.insert(Habit(title: "Hello World", image: Habit.Images.book), at: 0)
-        let topIndexPath = IndexPath(row: 0, section: 0)
-        tableView.insertRows(at: [topIndexPath], with: .automatic)
+        let addHabitVC = AddHabitViewController.instantiate()
+        let navigationController = UINavigationController(rootViewController: addHabitVC)
+        navigationController.modalPresentationStyle = .fullScreen
+        present(navigationController, animated: true, completion: nil)
+        
+//        habits.insert(Habit(title: "Hello World", image: Habit.Images.book), at: 0)
+//        let topIndexPath = IndexPath(row: 0, section: 0)
+//        tableView.insertRows(at: [topIndexPath], with: .automatic)
     }
 }

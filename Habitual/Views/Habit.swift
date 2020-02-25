@@ -8,8 +8,8 @@
 
 import UIKit
 
-struct Habit {
-    enum Images: Int, CaseIterable {
+struct Habit: Codable {
+    enum Images: Int, Codable, CaseIterable {
         case book
         case bulb
         case clock
@@ -26,15 +26,15 @@ struct Habit {
         case search
         case sleep
         case tooth
-    }
-    
-    var image: UIImage {
-        guard let image = UIImage(named: String(describing: self.selectedImage)) else {
-            fatalError("image \(self) not found")
+
+        var image: UIImage {
+            guard let image = UIImage(named: String(describing: self)) else {
+                fatalError("image \(self) not found")
+            }
+            return image
         }
-        return image
     }
-        
+     
     var title: String
     var dateCreated: Date = Date()
     var selectedImage: Images

@@ -53,6 +53,15 @@ class HabitsTableViewController: UITableViewController {
             return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+         let selectedHabit = persistence.habits[indexPath.row]
+         let habitDetailVC = HabitDetailViewController.instantiate()
+         habitDetailVC.habit = selectedHabit
+         habitDetailVC.habitIndex = indexPath.row
+         navigationController?.pushViewController(habitDetailVC, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

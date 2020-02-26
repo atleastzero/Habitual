@@ -12,6 +12,8 @@
 		BC1D48CD240243ED00ED2DAD /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1D48CB240243ED00ED2DAD /* AddHabitViewController.xib */; };
 		BC1D48D02402484E00ED2DAD /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1D48CE2402484E00ED2DAD /* HabitImageCollectionViewCell.swift */; };
 		BC1D48D12402484E00ED2DAD /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1D48CF2402484E00ED2DAD /* HabitImageCollectionViewCell.xib */; };
+		BC50D48D2405F80700659ED8 /* HabitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50D48B2405F80700659ED8 /* HabitDetailViewController.swift */; };
+		BC50D48E2405F80700659ED8 /* HabitDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC50D48C2405F80700659ED8 /* HabitDetailViewController.xib */; };
 		BC95C33C23FF1913008BADDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95C33B23FF1913008BADDD /* AppDelegate.swift */; };
 		BC95C33E23FF1913008BADDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95C33D23FF1913008BADDD /* SceneDelegate.swift */; };
 		BC95C34523FF1914008BADDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC95C34423FF1914008BADDD /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		BC1D48CB240243ED00ED2DAD /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
 		BC1D48CE2402484E00ED2DAD /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		BC1D48CF2402484E00ED2DAD /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		BC50D48B2405F80700659ED8 /* HabitDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailViewController.swift; sourceTree = "<group>"; };
+		BC50D48C2405F80700659ED8 /* HabitDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailViewController.xib; sourceTree = "<group>"; };
 		BC95C33823FF1913008BADDD /* Habitual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC95C33B23FF1913008BADDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC95C33D23FF1913008BADDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				BC1D48CB240243ED00ED2DAD /* AddHabitViewController.xib */,
 				BCF797DD2405B31900B29699 /* ConfirmHabitViewController.swift */,
 				BCF797DE2405B31900B29699 /* ConfirmHabitViewController.xib */,
+				BC50D48B2405F80700659ED8 /* HabitDetailViewController.swift */,
+				BC50D48C2405F80700659ED8 /* HabitDetailViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC50D48E2405F80700659ED8 /* HabitDetailViewController.xib in Resources */,
 				BC95C34823FF1914008BADDD /* LaunchScreen.storyboard in Resources */,
 				BC1D48CD240243ED00ED2DAD /* AddHabitViewController.xib in Resources */,
 				BCF797E02405B31900B29699 /* ConfirmHabitViewController.xib in Resources */,
@@ -186,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC50D48D2405F80700659ED8 /* HabitDetailViewController.swift in Sources */,
 				BC95C35923FF2BEA008BADDD /* DateExtentions.swift in Sources */,
 				BC95C35523FF1B32008BADDD /* UIViewControllerExtensions.swift in Sources */,
 				BC95C35723FF2999008BADDD /* Habit.swift in Sources */,

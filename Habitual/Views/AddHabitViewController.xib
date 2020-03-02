@@ -18,20 +18,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1kS-wn-wkY">
-                    <rect key="frame" x="15" y="158.5" width="384" height="613.5"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FCw-R7-N2o">
-                        <size key="itemSize" width="50" height="50"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="J8c-bm-O4v"/>
-                        <outlet property="delegate" destination="-1" id="tYb-Np-sMd"/>
-                    </connections>
-                </collectionView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vwz-V7-bWv">
                     <rect key="frame" x="15" y="792" width="384" height="50"/>
                     <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,6 +31,20 @@
                         <action selector="pickPhotoButtonPressed:" destination="-1" eventType="touchUpInside" id="jVh-1P-0rZ"/>
                     </connections>
                 </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1kS-wn-wkY">
+                    <rect key="frame" x="15" y="67" width="384" height="705"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FCw-R7-N2o">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="J8c-bm-O4v"/>
+                        <outlet property="delegate" destination="-1" id="tYb-Np-sMd"/>
+                    </connections>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -52,12 +52,12 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Vwz-V7-bWv" secondAttribute="trailing" constant="15" id="O9j-xh-adE"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vwz-V7-bWv" secondAttribute="bottom" constant="20" id="Wj7-FW-J4b"/>
                 <constraint firstItem="Vwz-V7-bWv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="b7V-Mz-D22"/>
-                <constraint firstItem="1kS-wn-wkY" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.75" id="ltF-Sy-cvy"/>
+                <constraint firstItem="1kS-wn-wkY" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="0.75" constant="91.5" id="ltF-Sy-cvy"/>
                 <constraint firstItem="1kS-wn-wkY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="px7-Xp-GAo"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1kS-wn-wkY" secondAttribute="trailing" constant="15" id="wxn-nV-2ol"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="139" y="79"/>
+            <point key="canvasLocation" x="137.68115942028987" y="78.348214285714278"/>
         </view>
     </objects>
 </document>
